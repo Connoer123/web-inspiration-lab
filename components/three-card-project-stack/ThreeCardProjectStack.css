@@ -1,0 +1,15 @@
+.stack-stage {
+  height: 85vh;
+  min-height: 720px;
+}
+
+.stack-card {
+  position: sticky;
+  padding: clamp(1rem, 2vw, 2rem);
+  background: rgb(255 255 255 / 75%);
+  border: 2px solid #fff;
+  border-radius: clamp(2.5rem, 5vw, 3.75rem);
+  box-shadow: 0 1.5rem 4.5rem rgb(29 29 31 / 10%);
+  transform-origin: top;
+  backdrop-filter: blur(28px) saturate(140%);
+}

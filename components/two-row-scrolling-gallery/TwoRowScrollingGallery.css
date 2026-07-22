@@ -1,0 +1,18 @@
+.scrolling-gallery {
+  overflow: hidden;
+}
+
+.scrolling-gallery-window {
+  margin-bottom: 0.75rem;
+}
+
+.scrolling-gallery-track {
+  display: flex;
+  width: max-content;
+  gap: 0.75rem;
+  will-change: transform;
+}
+
+.scrolling-gallery-track > * {
+  flex: none;
+}

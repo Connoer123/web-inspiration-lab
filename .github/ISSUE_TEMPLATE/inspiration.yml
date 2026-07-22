@@ -1,0 +1,41 @@
+name: Save inspiration
+description: Add a website or component idea to the library
+title: "[Idea]: "
+labels: ["saved"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Original website
+      description: Link to the page that inspired this idea.
+      placeholder: https://example.com
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What should be studied?
+      options:
+        - Component
+        - Full website
+        - Animation
+        - Layout
+    validations:
+      required: true
+  - type: textarea
+    id: interest
+    attributes:
+      label: What caught your attention?
+      description: Identify the specific design or interaction worth recreating.
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: How might you make it your own?
+      description: Note possible visual, content, or interaction changes.
+  - type: textarea
+    id: reuse
+    attributes:
+      label: Potential portfolio use
+      description: Explain where this idea could help a future portfolio version.
