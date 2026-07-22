@@ -2,9 +2,7 @@
 
 ![Website preview](../../docs/screenshots/hero.webp)
 
-[Planned public preview](https://connoer123.github.io/web-inspiration-lab/) · Local preview: `http://127.0.0.1:5173/web-inspiration-lab/`
-
-The public preview becomes available after the repository is pushed and GitHub Pages finishes its first deployment.
+[Public preview](https://connoer123.github.io/web-inspiration-lab/)
 
 - Type: Full website landing page
 - Status: Ready to customize

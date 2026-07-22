@@ -22,7 +22,7 @@ Different recreations may use different frameworks. Each project folder should c
 
 ## Public preview
 
-The portfolio is configured to deploy automatically to [GitHub Pages](https://connoer123.github.io/web-inspiration-lab/) after the repository is pushed to GitHub. Localhost links only work on the computer running the development server.
+View the portfolio on [GitHub Pages](https://connoer123.github.io/web-inspiration-lab/). Every push to `main` deploys the latest version automatically.
 
 ## Suggested GitHub labels
 
